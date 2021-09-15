@@ -162,3 +162,7 @@ Route::get('tag/{tag?}/{filter?}', 'Frontend\SearchController@tag')->name('front
 
 // ajax requesting handling controller
 Route::get('get_categories', 'JsonController@get_categories')->name('get_categories');
+
+// blog-page route by Czon 
+Route::get('blogs', 'Frontend\FrontendController@blogs')->name('frontend.blogs');
+Route::get('blog', 'Frontend\FrontendController@blog')->name('frontend.blog');

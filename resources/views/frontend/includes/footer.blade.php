@@ -9,11 +9,17 @@
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="fs-links fm-single">
                             <h4>Company Info</h4>
+                            <div class="fsl-text">
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae distinctio eligendi
+                                    incidunt amet quo quae consequuntur ad optio illum, voluptate
+                                </p>
+                            </div>
                             <ul>
-                            <li><a href="{{ route('frontend.aboutUs') }}">About Us</a></li>
+                                <li><a href="{{ route('frontend.aboutUs') }}">About Us</a></li>
                                 <li><a href="{{ route('frontend.shop') }}">Shop</a></li>
                                 <li><a href="#">Blogs</a></li>
-                            <li><a href="{{ route('frontend.contactUs') }}">Contact Us</a></li>
+                                <li><a href="{{ route('frontend.contactUs') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -32,7 +38,8 @@
                             <h4>Connect With Us</h4>
                             <ul class="fsc-social">
                                 <li>
-                                    <a href="https://www.facebook.com/Nirmantools" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.facebook.com/Nirmantools" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a>
                                 </li>
                                 <!--<li>-->
                                 <!--    <a href="#"><i class="fab fa-instagram"></i></a>-->
@@ -82,7 +89,8 @@
     </section>
     <button onclick="topFunction()" id="myTopbtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
     <div class="floating-icons">
-        <a href="https://www.facebook.com/Nirmantools" class="facebook" targe="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.facebook.com/Nirmantools" class="facebook" targe="_blank"><i
+                class="fab fa-facebook-f"></i></a>
         <!--<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>-->
         <!--<a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>-->
         <!--<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>-->

@@ -162,4 +162,28 @@ class FrontendController extends Controller
         return view('frontend.partners', compact('partner'));
     }
 
+
+
+    /**
+     * blogs landing page
+     * 
+     * @param null
+     * 
+     * @return view
+     */
+    public function blogs()              
+    {
+        return view('frontend.blogs');
+    }
+
+
+
+    /**
+     * blog inner page
+     * 
+     */
+    public function blog()              
+    {
+        return view('frontend.blog');
+    }
 }
