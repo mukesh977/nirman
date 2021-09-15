@@ -1,0 +1,4 @@
+[2020-11-02 10:36:35] local.INFO: Order is made deduction is required  
+[2020-11-02 10:43:34] local.INFO: The order name ismukesh raidescription is [{"product":"Cordless Drill332222","price":8000,"quantity":1},{"product":"Water Pressure","price":12000,"quantity":1}]  
+[2020-11-02 11:52:06] local.INFO: mukesh rai ordered Cordless Drill332222 quantity: 1whose price is:8000  
+[2020-11-02 11:52:06] local.INFO: mukesh rai ordered Water Pressure quantity: 1whose price is:12000  

@@ -1,0 +1,160 @@
+.card-header {
+   	background: #17a2b8 !important;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    height: auto;
+    letter-spacing: 0.6px;
+    max-height: 49px
+}
+
+.required::after{
+    content: " *";
+    color: red;
+}
+
+/* css for orderview */
+.orders-details-top {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+  }
+  
+  .orders-details-top-left small {
+    border-bottom: 2px solid #7aa93c;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 600;
+  }
+  
+  .orders-details-top-left h6 {
+    color: #676767;
+    font-size: 14px;
+  }
+  
+  .odtr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .odtr input[type="button"] {
+    cursor: pointer;
+    font-style: normal;
+    color: black;
+    border: 2px solid #7aa93c;
+    background-color: transparent;
+    line-height: 14px;
+    padding: 12px 28px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    display: inline-block;
+    margin-top: 25px;
+    margin-top: 0;
+    line-height: 13px;
+    padding: 8px 18px;
+    font-size: 13px;
+  }
+  
+  .odtr input[type="button"]:hover {
+    color: white;
+    background-color: #ec2525;
+    border-color: #ec2525;
+  }
+  
+  .orders-details-middle {
+    margin: 20px 0;
+  }
+  
+  .orders-details-middle table {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 600;
+  }
+  
+  .orders-details-middle table thead tr {
+    background-color: #f6f9ff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .orders-details-middle table thead tr th {
+    padding: 8px;
+  }
+  
+  .orders-details-middle table tbody tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .orders-details-middle table tbody tr td {
+    padding: 12px 8px;
+  }
+  
+  .odm-total {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f6f9ff;
+  }
+  
+  .odm-total h4 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  
+  .odm-total table {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 600;
+    padding: 0 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .odm-total table tbody tr td {
+    padding: 5px;
+  }
+  
+  .orders-details-bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+  }
+  
+  .orders-details-bottom h6 {
+    font-size: 16px;
+  }
+  
+  .orders-details-bottom ul {
+    padding-left: 10px;
+  }
+  
+  .orders-details-bottom ul li {
+    color: #676767;
+    font-size: 13px;
+  }
+  
+  .orders-details-bottom ul li::before {
+    content: "-";
+    font-size: 7px;
+    margin-right: 2px;
+  }
+  
+  .orders-details-bottom .odbr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  
+  .orders-details-bottom .odbr li {
+    text-align: right;
+  }
+  /* css for orderview */
